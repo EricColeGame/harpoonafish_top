@@ -22,15 +22,15 @@ export const siteConfig: SiteConfig = {
   name: "Harpoon a Fish Wiki",
   shortName: "Harpoon a Fish",
   logoText: "H",
-  tagline: "Codes, Fish Index & Progression Guides",
-  description: "Your ultimate guide to Harpoon a Fish on Roblox! Explore working codes, the fish index, harpoon upgrades, aquarium growth, sea monsters, and progression strategies.",
+  tagline: "Fish Index, Codes & Progression Guides",
+  description: "Explore 1,800+ fish, harpoon upgrades, aquarium growth, sea monsters, and progression strategies in Harpoon a Fish on Roblox.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://harpoonafish.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://harpoonafish.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@harpoonafish.top",
   gameUrl: "https://www.roblox.com/games/113384248926706/Harpoon-a-Fish",
-  heroVideoId: "Ld73nCcJ7z8", // How to Play Harpoon a Fish Roblox Full Guide
+  heroVideoId: "Ld73nCcJ7z8", // How to Play Harpoon a Fish Roblox Full Guide (VendoPlus)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.roblox.com/communities/876860520",
+    youtube: "https://www.youtube.com/watch?v=Ld73nCcJ7z8",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",

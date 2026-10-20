@@ -2,9 +2,9 @@
   "site": {
     "name": "Harpoon a Fish Wiki",
     "shortName": "Harpoon a Fish",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to Harpoon a Fish on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "tagline": "Fish Index, Codes & Progression Guides",
+    "description": "Explore 1,800+ fish, harpoon upgrades, aquarium growth, sea monsters, and progression strategies in Harpoon a Fish on Roblox.",
+    "legalNotice": "Non-official fan wiki for Harpoon a Fish on Roblox. Made by players, for players."
   },
   "nav": {
     "races": "Races",
@@ -30,19 +30,19 @@
       "description": "Complete Harpoon a Fish guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "Harpoon a Fish",
-      "description": "Master your restaurant in Harpoon a Fish on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Multiplayer Harpoon Fishing Simulator",
+      "title": "Harpoon a Fish Wiki",
+      "description": "Explore the ocean, harpoon unique sea monsters, grow fish in your aquarium, compete for rare catches, and discover guides, codes, fish collections, and progression tips for Harpoon a Fish.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "405K+ Total Visits",
+        "1,800+ Unique Fish",
+        "2.7K+ Players Online",
+        "Updated Oct 14, 2026"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
+      "secondaryCta": "Fish Index & Maps",
       "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "videoLabel": "Gameplay Guide"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,8 +342,8 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master Harpoon a Fish?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Catch Every Fish in Harpoon a Fish?",
+      "description": "Explore the ocean, grow your aquarium, hunt sea monsters, and master every progression system with free, up-to-date fan guides.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
@@ -380,20 +380,20 @@
   },
   "footer": {
     "aboutTitle": "Harpoon a Fish Wiki",
-    "about": "Harpoon a Fish Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "about": "Harpoon a Fish Wiki is an independent fan-built guide hub covering harpoon mechanics, the fish index, aquarium growth, sea monsters, upgrades, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 Harpoon a Fish Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play Harpoon a Fish",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 Harpoon a Fish Wiki. Not affiliated with FirstTry or Roblox.",
+    "description": "Multiplayer harpoon fishing simulator on Roblox with 1,800+ fish, aquarium growth, and sea monster hunts.",
+    "playGame": "Play Harpoon a Fish on Roblox",
+    "officialDiscord": "FirstTry Roblox Community",
+    "officialYoutube": "Harpoon a Fish Gameplay Guide",
+    "vvBuilder": "Fish Index & Location Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Fish Index",
+    "bossGuides": "Sea Monster Guides",
+    "buildGuide": "Upgrade Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

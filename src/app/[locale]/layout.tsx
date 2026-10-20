@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
     appleWebApp: { capable: true, title: siteConfig.shortName, statusBarStyle: "default" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, title: "Harpoon a Fish Wiki", description: "Complete Harpoon a Fish fan wiki with codes, fish index, harpoon upgrades, aquarium tips, sea monsters, and progression guides.", images: [{ url: image, width: 1280, height: 720, alt: "Harpoon a Fish gameplay preview" }] },
+    twitter: { card: "summary_large_image", title: "Harpoon a Fish Wiki", description: "Complete Harpoon a Fish fan wiki with codes, fish index, harpoon upgrades, aquarium tips, sea monsters, and progression guides.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
