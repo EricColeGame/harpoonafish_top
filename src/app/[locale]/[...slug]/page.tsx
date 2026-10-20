@@ -34,8 +34,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     const ct = slug[0];
     const ctTitle = ct.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
     const ctMessages = (messages as unknown as Record<string, Record<string, string>>)[ct];
-    const title = ctMessages?.overviewTitle || `${ctTitle} — ${siteConfig.name}`;
-    const description = ctMessages?.overviewDescription || `Browse all ${ctTitle.toLowerCase()} guides and resources for ${siteConfig.shortName}.`;
+    const navLabel = (messages.nav as Record<string, string>)[ct] || ctTitle;
+    const title = ctMessages?.overviewTitle || `${navLabel} — ${siteConfig.name}`;
+    const description = ctMessages?.overviewDescription || `Browse all ${navLabel.toLowerCase()} guides and resources for ${siteConfig.shortName}.`;
     return { title, description, alternates: { canonical: `/${locale}/${ct}`, languages: languageAlternates(`/${ct}`) }, openGraph: { title, description, url: `${siteUrl}/${locale}/${ct}`, images: [`${siteUrl}/images/hero.webp`] } };
   }
   const [contentType, ...articleSlug] = slug;
@@ -57,13 +58,12 @@ export default async function SlugPage({ params }: { params: Promise<{ locale: L
 async function NavigationPage({ locale, contentType, navGroups }: { locale: Locale; contentType: string; navGroups: import("@/lib/content").NavGroup[] }) {
   if (!CONTENT_TYPES.includes(contentType)) notFound();
   const messages = (await getMessages({ locale })) as Messages;
-  const items = await getAllContent(contentType, locale);
-  const listData = { "@context": "https://schema.org", "@type": "ItemList", name: `${contentType} — ${siteConfig.name}`, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, url: `${siteUrl}/${locale}/${contentType}/${item.slug}`, name: item.metadata.title })) };
-
   // 读取分类标题（优先用 locale JSON 里的，没有就转 slug）
   const sectionTitle = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewTitle
     || contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const sectionDesc = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewDescription || "";
+  const items = await getAllContent(contentType, locale);
+  const listData = { "@context": "https://schema.org", "@type": "ItemList", name: `${sectionTitle} — ${siteConfig.name}`, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, url: `${siteUrl}/${locale}/${contentType}/${item.slug}`, name: item.metadata.title })) };
 
   return <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8"><JsonLd data={listData} /><div className="mx-auto max-w-4xl"><article><Breadcrumbs items={[{ label: messages.shared.home, href: localizeHref("/", locale) }, { label: sectionTitle }]} /><h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">{sectionTitle}</h1>{sectionDesc && <p className="mt-5 text-lg leading-8 text-muted-foreground">{sectionDesc}</p>}<AdBanner size="728x90" className="mt-8" />{items.length > 0 && <><div className="mt-10 grid gap-4 sm:grid-cols-2">{items.map((item) => <Link key={`/${contentType}/${item.slug}`} href={localizeHref(`/${contentType}/${item.slug}`, locale)} className="group rounded-2xl border border-border bg-card/70 p-5 transition hover:-translate-y-0.5 hover:border-[hsl(var(--nav-theme-light))]"><div className="mb-4 flex items-center justify-between gap-3"><span className="grid h-10 w-10 place-items-center rounded-xl bg-muted text-[hsl(var(--nav-theme))]"><Swords className="h-5 w-5" /></span>{item.metadata.badge && <Badge variant="secondary">{item.metadata.badge}</Badge>}</div><h3 className="text-lg font-bold text-foreground group-hover:text-[hsl(var(--nav-theme))]">{item.metadata.title}</h3><p className="mt-2 min-h-[3rem] text-sm leading-6 text-muted-foreground">{item.metadata.description}</p><span className="mt-4 inline-flex items-center text-sm font-semibold text-[hsl(var(--nav-theme))]">{messages.shared.readMore}<ChevronRight className="ml-1 h-4 w-4" /></span></Link>)}</div><AdBanner size="300x250" className="mt-8" /></>}{items.length === 0 && <p className="mt-8 text-muted-foreground">{messages.shared.noGuidesAvailable}</p>}<AdBanner size="728x90" /></article></div></main>;
 }
@@ -75,11 +75,11 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
   if (!item) notFound();
   const pathname = `/${contentType}/${slug.join("/")}`;
   const tocLabel = messages.shared.tableOfContents || messages.shared.inThisSection || "Table of Contents";
-  const sectionLabel = contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const sectionLabel = (messages.nav as Record<string, string>)[contentType] || contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const localizedPathname = `/${locale}${pathname}`;
   const image = item.metadata.image?.startsWith("http") ? item.metadata.image : `${siteUrl}${item.metadata.image ?? "/images/hero.webp"}`;
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: item.metadata.title, description: item.metadata.description, image, datePublished: item.metadata.date, dateModified: item.metadata.lastModified ?? item.metadata.date, mainEntityOfPage: `${siteUrl}${localizedPathname}`, author: { "@type": "Organization", name: siteConfig.name }, publisher: { "@type": "Organization", name: siteConfig.name, logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png` } } };
-  const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${locale}` }, { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}/${locale}/${contentType}` }, { "@type": "ListItem", position: 3, name: item.metadata.title, item: `${siteUrl}${localizedPathname}` }] };
+  const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: messages.shared.home, item: `${siteUrl}/${locale}` }, { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}/${locale}/${contentType}` }, { "@type": "ListItem", position: 3, name: item.metadata.title, item: `${siteUrl}${localizedPathname}` }] };
 
   const relatedLabel = messages.shared.relatedGuides || "Related Guides";
 

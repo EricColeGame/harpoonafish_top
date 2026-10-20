@@ -479,7 +479,12 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "activeCodeReward": "3,000 EXP + 3 Ruby Keys",
+    "moreCodesSoon": "Check back soon for new codes",
+    "close": "Close",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The guide you are looking for may have moved or has not been added yet."
   },
   "footer": {
     "aboutTitle": "Harpoon a Fish Wiki",

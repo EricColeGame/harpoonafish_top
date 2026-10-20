@@ -18,7 +18,7 @@ const icons: LucideIcon[] = [BookOpen, Shield, Compass, Boxes, Flame, Code2, Swo
 const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "Ld73nCcJ7z8";
 
 
-export default function HomePageClient({ home, locale, articles, recentArticles }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[] }) {
+export default function HomePageClient({ home, locale, articles, recentArticles, closeLabel }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[]; closeLabel: string }) {
   return (
     <div className="min-w-0 space-y-16">
       {/* Sticky 320x50 banner — top revenue slot, dismissable (course §4.3/4.4) */}
@@ -40,8 +40,8 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
       </section>
 
       {YOUTUBE_VIDEO_ID && (
-        <section aria-label="Harpoon a Fish gameplay video" className="mx-auto w-full max-w-5xl">
-          <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
+        <section aria-label={home.hero.videoLabel} className="mx-auto w-full max-w-5xl">
+          <TrailerButton videoId={YOUTUBE_VIDEO_ID} videoLabel={home.hero.videoLabel} closeLabel={closeLabel} />
         </section>
       )}
 

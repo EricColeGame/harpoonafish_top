@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "Harpoon a Fish Wiki",
+    "shortName": "Harpoon a Fish",
+    "tagline": "魚図鑑、コード、進行ガイド",
+    "description": "RobloxのHarpoon a Fishで、1,800匹以上の魚、銛のアップグレード、アクアリウムの成長、海のモンスター、進行戦略を探索しましょう。",
+    "legalNotice": "RobloxのHarpoon a Fishに関する非公式ファンWiki。プレイヤーがプレイヤーのために制作しています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマの切り替え",
+    "guide": "ガイド",
+    "codes": "コード",
+    "mechanics": "メカニクス",
+    "items": "アイテム",
+    "progression": "進行",
+    "controls": "コントロール",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Harpoon a Fish Wiki — コード、魚図鑑、深度、ガイド",
+      "description": "RobloxのHarpoon a Fish完全ガイド。有効なコード、1,800匹以上の魚図鑑、深度進行、銛のロードアウト、アクアリウムのコツを掲載。"
+    },
+    "hero": {
+      "eyebrow": "マルチプレイヤー銛釣りシミュレーター",
+      "title": "Harpoon a Fish Wiki",
+      "description": "海を探索し、ユニークな海のモンスターを銛で捕らえ、アクアリウムで魚を育て、珍しい獲物を競い合いましょう。Harpoon a Fishのガイド、コード、魚コレクション、進行のヒントも紹介します。",
+      "stats": [
+        "総訪問数405K+",
+        "1,800匹以上のユニークな魚",
+        "2.7K+人のオンラインプレイヤー",
+        "2026年10月14日更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "魚図鑑とメカニクス",
+      "tertiaryCta": "アクティブコード",
+      "videoLabel": "ゲームプレイガイド"
+    },
+    "updates": {
+      "title": "最新のアップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "Harpoon a Fishの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "マークされた魚の捕まえ方、射撃とリールのタイミング、最初のアクアリウムペット、Mukbangテーブルの体重ループを学びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "有効なコード",
+          "description": "MONSTERを入力して3,000 EXPとルビーキー3個を獲得し、ゲームアップデートのたびにコードページを確認しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "進行ガイド",
+          "description": "明確な目標、より良い装備、成長するペットを活かして、最初の獲物から300mの深度帯へ進みましょう。"
+        },
+        {
+          "number": "4",
+          "title": "最高の銛",
+          "description": "アップグレードを購入する前に、射撃後の復帰、リールの猶予、深度性能、捕獲率を比較しましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気のページ",
+      "title": "人気の記事",
+      "quickLinks": [
+        "有効なコード",
+        "魚のレア度",
+        "Mukbangの体重",
+        "銛のロードアウト"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "マークされた獲物、リールのタイミング、最初のアクアリウムペット、体重に基づく深度進行を学びます。",
+          "href": "/guide/harpoon-a-fish-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "有効なコード",
+          "description": "ゲーム内の正確な手順でMONSTERを入力し、3,000 EXPとルビーキー3個を獲得しましょう。",
+          "href": "/codes/harpoon-a-fish-codes"
+        },
+        {
+          "badge": "人気",
+          "title": "魚の希少性とインデックス",
+          "description": "レアリティ段階、深度ごとの魚、1,800匹以上の魚コレクションの埋め方を理解しましょう。",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity"
+        },
+        {
+          "badge": "人気",
+          "title": "最高の銛",
+          "description": "射撃後の復帰、リールの猶予、深度性能、捕獲率を比較します。",
+          "href": "/items/harpoon-a-fish-best-harpoon"
+        },
+        {
+          "badge": "初心者",
+          "title": "進行ガイド",
+          "description": "最初の獲物からアクアリウムペット、Mukbangの体重、より深い300mの深度帯へ進みます。",
+          "href": "/guide/harpoon-a-fish-progression-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "ダイビングと深度",
+          "description": "重量制限、バッグ容量、銛スロット、0〜1,800mの深度ゲージを計画しましょう。",
+          "href": "/mechanics/harpoon-a-fish-diving-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "アップグレードの優先順位",
+          "description": "序盤の資源は、深度、長時間の潜水、銛スロットの解放につながるアップグレードに使いましょう。",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades"
+        },
+        {
+          "badge": "新しい",
+          "title": "珍しい魚ガイド",
+          "description": "深さの目標、突然変異の可能性、アクアリウムの成長、インデックスの完了を個別に設定します。",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide"
+        },
+        {
+          "badge": "新しい",
+          "title": "最新のアップデート",
+          "description": "2026 年 10 月のパッチ、コードのステータス、進行の変更、コミュニティ ソースを追跡します。",
+          "href": "/community/harpoon-a-fish-latest-update"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Harpoon a Fishとは何ですか？",
+      "paragraphs": [
+        "Harpoon a Fishは、FirstTryがRobloxで提供するマルチプレイヤー銛釣りシミュレーターです。小さな島からスタートし、層状の海に潜り、マークされた海の生き物を狙って射撃し、制限時間内のリール操作で獲物を捕獲します。コレクションには、浅瀬のコモン魚から最深部のレアで伝説のモンスターまで、1,800匹以上の魚が含まれています。",
+        "進行は、より強力な銛だけでは決まりません。捕まえた魚は成長・進化するアクアリウムペットになり、Mukbangテーブルで食べると体重が増えて、キャラクターがより深い300mの深度帯へ沈めます。EXP、ルビーキー、装備スロット、バッグ容量、餌はそれぞれループの異なる部分を担うため、一度に1つの明確な目標を完了するのが最短ルートです。"
+      ],
+      "stats": [
+        {
+          "label": "開発者",
+          "value": "FirstTry"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Roblox"
+        },
+        {
+          "label": "ジャンル",
+          "value": "銛釣り"
+        },
+        {
+          "label": "魚",
+          "value": "1,800+"
+        },
+        {
+          "label": "最大深度",
+          "value": "1,800 m"
+        },
+        {
+          "label": "訪問",
+          "value": "405K+"
+        },
+        {
+          "label": "選手",
+          "value": "2.7K+"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Harpoon a Fish Wikiを探索",
+      "description": "有効なコード、初心者向け手順、1,800匹以上の魚図鑑、進行ルート、アクアリウムの成長、銛のロードアウト、アップグレードの優先順位で海を極めましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Harpoon a Fishのコード",
+          "description": "有効なHarpoon a Fishコード、EXPとルビーキーの報酬、引き換え手順、コードが失敗する主な理由を確認できます。",
+          "href": "/codes/harpoon-a-fish-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "MONSTER",
+              "detail": "3,000 EXPとルビーキー3個。設定にコードを正確に入力してください。"
+            },
+            {
+              "label": "EXP",
+              "detail": "アカウントをレベルアップすると、強力な銛と深いゾーンが早く解放されます。"
+            },
+            {
+              "label": "KEYS",
+              "detail": "ルビーキーは魚コレクションに対応した報酬バンドルを解放します。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Harpoon a Fish初心者ガイド",
+          "description": "序盤の流れを学びましょう。マークされた魚を狙って発射し、リールを完了し、島に戻ってペットを置き、体重を増やします。",
+          "href": "/guide/harpoon-a-fish-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "マークされた魚を狙って銛を発射します。"
+            },
+            {
+              "label": "2",
+              "detail": "制限時間内にリール操作を完了します。命中しても捕獲したことにはなりません。"
+            },
+            {
+              "label": "3",
+              "detail": "PCではSpaceで浮上し、島のタスクに戻ります。"
+            },
+            {
+              "label": "4",
+              "detail": "最初の獲物をアクアリウムに入れてペットを始めましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "Mukbang テーブルを購入して、食事のステップを完了します。"
+            },
+            {
+              "label": "6",
+              "detail": "より深く沈むために体重を増やしてから、次の特定の獲物を選択します。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Harpoon a Fish魚図鑑",
+          "description": "浅瀬のコモン魚から最深部の伝説・シークレット魚まで、レアリティ別に1,800匹以上の魚コレクションを見ていきましょう。",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "終盤の深度と最高装備で狙える伝説・シークレットの獲物。"
+            },
+            {
+              "label": "A",
+              "detail": "レベル上げと銛の強化が必要なエピック深海魚。"
+            },
+            {
+              "label": "B",
+              "detail": "中層域のレア魚とアンコモン魚。"
+            },
+            {
+              "label": "C",
+              "detail": "浅瀬のコモン魚。序盤のアクアリウム枠を埋めます。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Harpoon a Fish進行ガイド",
+          "description": "最初の獲物からアクアリウムペット、Mukbangの体重、より深い300mの深度帯、集中した潜水まで、序盤の進行ルートをたどります。",
+          "href": "/guide/harpoon-a-fish-progression-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "マークされた獲物に正確に狙いを定め、発射してリールを巻き、捕獲します。"
+            },
+            {
+              "label": "2",
+              "detail": "島に戻り、すべてのチュートリアルの矢印タスクを完了します。"
+            },
+            {
+              "label": "3",
+              "detail": "最初の獲物をアクアリウムのペットに変えましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "Mukbangテーブルで食事をして、キャラクターの体重を増やします。"
+            },
+            {
+              "label": "5",
+              "detail": "新しい体重を使って次の300m深度帯へ到達します。"
+            },
+            {
+              "label": "6",
+              "detail": "レシピ用の魚、図鑑エントリ、新たに到達できる目標のうち1つを選びましょう。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Harpoon a Fishベストアップグレード",
+          "description": "深度へのアクセス、潜水距離、銛スロット、長期的な収集効率を向上させるアップグレードを優先してください。",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "MUKBANG",
+              "detail": "タスクが表示されたらテーブルを購入します。食べると体重が増え、深い場所へ行けるようになります。"
+            },
+            {
+              "label": "BAG",
+              "detail": "バッグのスペースを拡張して、各ダイビングをスターターの 5 つのスロットを超えて拡張します。"
+            },
+            {
+              "label": "SLOTS",
+              "detail": "装備スロットを使用すると、すでに所有している銛をさらに使用できるようになります。"
+            },
+            {
+              "label": "HARPOON",
+              "detail": "体重が増えた後に銛を強化しましょう。より強い装備で捕獲上限が上がります。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Harpoon a Fishアクアリウムガイド",
+          "description": "捕まえた魚をアクアリウムペットに変え、成長を支え、進化による受動的な収入を築きます。",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "気に入った魚を残し、アクアリウムのペット枠に置きます。"
+            },
+            {
+              "label": "2",
+              "detail": "新しい捕獲を使用して、ペットの成長過程をサポートします。"
+            },
+            {
+              "label": "3",
+              "detail": "多くのペットに資源を分けるのではなく、1匹に集中しましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "アクアリウムの成長と進化のステップを進めてペットを強化してください。"
+            },
+            {
+              "label": "5",
+              "detail": "進化したペットは毎秒コインを生み出し、オフライン時の収益は約20%遅くなります。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Harpoon a Fish銛ガイド",
+          "description": "2段階の捕獲を理解し、捕獲率で銛を比較し、深度やターゲットに合わせたロードアウトを組みましょう。",
+          "href": "/items/harpoon-a-fish-best-harpoon",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "2段階",
+              "detail": "発射で挑戦が始まり、制限時間内のリール操作で捕獲が完了します。"
+            },
+            {
+              "label": "テスト",
+              "detail": "クリーンヒット、捕獲成功、捕獲サイクル全体で銛を比較します。"
+            },
+            {
+              "label": "ロードアウト",
+              "detail": "扱いやすい万能銛1本と専門銛1本を、枠が開いたら使い分けましょう。"
+            },
+            {
+              "label": "深さ",
+              "detail": "釣る水域に合わせて銛を選びましょう。深いターゲットには射程と安定性が必要です。"
+            },
+            {
+              "label": "予算",
+              "detail": "オプションの銛を購入する前に、チュートリアルの購入を完了してください。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Harpoon a Fishバッジガイド",
+          "description": "12個のバッジリストをコンプリート用チェックリストとして使い、Harpoon a Fishの次の目標に向けた実践的なロードマップにしましょう。",
+          "href": "/mechanics/harpoon-a-fish-diving-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "バッジ12個",
+              "detail": "現在のバッジリストには12個の項目があり、コンプリート用チェックリストとして使えます。"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "未完のバッジを使用して、明確な次の目標を選択します。"
+            },
+            {
+              "label": "探検する",
+              "detail": "バッジの進行は、潜水、捕獲、収集の目標と連動します。"
+            },
+            {
+              "label": "図鑑",
+              "detail": "目標を選ぶときは、バッジとあわせて魚図鑑も確認しましょう。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Harpoon a Fish よくある質問",
+      "description": "Harpoon a Fishの捕獲、深度、コード、魚コレクション、アクアリウム進行についてわかりやすく回答します。",
+      "items": [
+        {
+          "question": "Harpoon a Fishとは？",
+          "answer": "Harpoon a Fishは、FirstTryがRobloxで提供するマルチプレイヤー銛釣りシミュレーターです。プレイヤーは層状の海に潜り、生き物を銛で捕らえて引き上げ、1,800匹以上の魚コレクションを育てます。"
+        },
+        {
+          "question": "Harpoon a Fishで魚を捕まえるには？",
+          "answer": "Harpoon a Fishでは、ターゲットに狙いを定めて銛を発射し、制限時間内にリール操作を完了します。発射しただけでは捕獲できません。リール操作を完了して初めて獲物を獲得できます。"
+        },
+        {
+          "question": "Harpoon a Fishで深い水域へ行くには？",
+          "answer": "Harpoon a Fishでは、Mukbangテーブルで食事をするとキャラクターの体重が増えます。体重があると300mごとの深度帯を下へ進め、深い場所ほどレアな魚が生息しています。"
+        },
+        {
+          "question": "Harpoon a FishのMONSTERコードでもらえるものは？",
+          "answer": "Harpoon a Fishでは、MONSTERで3,000 EXPとルビーキー3個を獲得できます。設定を開き、コードを正確に入力して送信してください。各コードはアカウントにつき1回使用できます。"
+        },
+        {
+          "question": "Harpoon a Fishには何匹の魚がいますか？",
+          "answer": "Harpoon a Fishは1,800種類以上のユニークな魚をうたっています。魚図鑑では新種と各項目の最重量記録を確認できます。"
+        },
+        {
+          "question": "Harpoon a Fishのアクアリウムの仕組みは？",
+          "answer": "Harpoon a Fishでは、捕まえた魚をアクアリウムペットにできます。育てたい魚を選び、その成長と進化の道筋をたどりましょう。進化したペットは時間経過でコインを生み出し、オフライン時は速度が落ちますが収益を得られます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Harpoon a Fishのすべての魚を捕まえる準備はできましたか？",
+      "description": "無料の最新ファンガイドで、海を探索し、アクアリウムを育て、海のモンスターを狩り、すべての進行システムを極めましょう。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Roblox でプレイする"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Harpoon a Fishガイド: 初心者向けのヒントと戦略",
+    "overviewDescription": "マークされた魚から始め、射撃とリールのタイミングを学び、最初のアクアリウムペットを置き、Mukbangテーブルでより深い水域を解放しましょう。"
+  },
+  "codes": {
+    "overviewTitle": "Harpoon a Fishコード: 有効な報酬と引き換え",
+    "overviewDescription": "現在のHarpoon a Fishコード一覧を確認し、無料のEXPとルビーキーを引き換え、アップデートごとに新しいコードがどこに掲載されるか確認しましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Harpoon a Fishメカニクス: レアリティ、潜水、捕獲",
+    "overviewDescription": "魚のレアリティ、銛と釣りの仕組み、潜水深度の制限、深海遠征を支えるアップグレードシステムを理解しましょう。"
+  },
+  "items": {
+    "overviewTitle": "Harpoon a Fishアイテム: 銛、装備、レア魚",
+    "overviewDescription": "銛と装備を比較し、アップグレードの優先順位を計画し、コレクション内のレア魚、シークレット魚、エキゾチック魚を追跡しましょう。"
+  },
+  "progression": {
+    "overviewTitle": "Harpoon a Fish進行: 効率的なレベル上げと稼ぎ",
+    "overviewDescription": "効率的な捕獲、アップグレードの解放、より良い銛、現在の深度に合わせた稼ぎルートで進行を加速しましょう。"
+  },
+  "controls": {
+    "overviewTitle": "Harpoon a Fish操作: PC、モバイル、エイム",
+    "overviewDescription": "PCとモバイルの操作を覚え、銛を正確に狙い、リール操作のタイミングを合わせて、より多くの射撃を捕獲につなげましょう。"
+  },
+  "community": {
+    "overviewTitle": "Harpoon a Fishコミュニティ: Discord、Reddit、アップデート",
+    "overviewDescription": "Harpoon a Fishの更新を追い、DiscordとRedditのコミュニティを見つけ、パッチ変更や新コンテンツを把握しましょう。"
+  },
+  "shared": {
+    "wikiNavigation": "Wikiナビゲーション",
+    "activeCodes": "アクティブコード",
+    "updated": "更新済み",
+    "viewAllCodes": "すべてのコードを表示",
+    "playOnRoblox": "Roblox でプレイする",
+    "inThisSection": "このセクションでは",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだ利用可能なガイドはありません。すぐにまたチェックしてください!",
+    "activeCodeReward": "3,000 EXP + ルビーキー3個",
+    "moreCodesSoon": "新しいコードは近日公開予定です",
+    "close": "閉じる",
+    "notFoundTitle": "ページが見つかりません",
+    "notFoundDescription": "お探しのガイドは移動したか、まだ追加されていない可能性があります。"
+  },
+  "footer": {
+    "aboutTitle": "Harpoon a Fish Wiki",
+    "about": "Harpoon a Fish Wikiは、銛の仕組み、魚図鑑、アクアリウムの成長、海のモンスター、アップグレード、初心者からベテランまで役立つゲーム知識を扱う、ファン制作の独立ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 Harpoon a Fish Wiki。FirstTryまたはRobloxとは提携していません。",
+    "description": "1,800匹以上の魚、アクアリウムの成長、海のモンスター狩りを楽しめるRobloxのマルチプレイヤー銛釣りシミュレーター。",
+    "playGame": "RobloxでHarpoon a Fishをプレイ",
+    "officialDiscord": "FirstTry Roblox コミュニティ",
+    "officialYoutube": "Harpoon a Fishゲームプレイガイド",
+    "vvBuilder": "魚図鑑と場所のガイド",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "魚図鑑",
+    "bossGuides": "釣りのメカニクス",
+    "buildGuide": "進行ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
@@ -20,13 +20,15 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  const home = await getTranslations({ locale, namespace: "home.meta" });
+  const site = await getTranslations({ locale, namespace: "site" });
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
     applicationName: siteConfig.name,
-    title: { default: "Harpoon a Fish Wiki", template: "%s" },
-    description: "Complete Harpoon a Fish fan wiki with codes, fish index, harpoon upgrades, aquarium tips, sea monsters, and progression guides.",
+    title: { default: site("name"), template: "%s" },
+    description: home("description"),
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -37,8 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
     appleWebApp: { capable: true, title: siteConfig.shortName, statusBarStyle: "default" },
-    openGraph: { type: "website", locale, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, title: "Harpoon a Fish Wiki", description: "Complete Harpoon a Fish fan wiki with codes, fish index, harpoon upgrades, aquarium tips, sea monsters, and progression guides.", images: [{ url: image, width: 1280, height: 720, alt: "Harpoon a Fish gameplay preview" }] },
-    twitter: { card: "summary_large_image", title: "Harpoon a Fish Wiki", description: "Complete Harpoon a Fish fan wiki with codes, fish index, harpoon upgrades, aquarium tips, sea monsters, and progression guides.", images: [image] },
+    openGraph: { type: "website", locale, url: `${siteUrl}/${locale}`, siteName: site("name"), title: site("name"), description: home("description"), images: [{ url: image, width: 1280, height: 720, alt: `${site("shortName")} — ${home("title")}` }] },
+    twitter: { card: "summary_large_image", title: site("name"), description: home("description"), images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }

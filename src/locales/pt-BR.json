@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "Harpoon a Fish Wiki",
+    "shortName": "Harpoon a Fish",
+    "tagline": "Índice de peixes, códigos e guias de progressão",
+    "description": "Explore mais de 1.800 peixes, melhorias de arpões, crescimento do aquário, monstros marinhos e estratégias de progressão em Harpoon a Fish no Roblox.",
+    "legalNotice": "Wiki de fãs não oficial de Harpoon a Fish em Roblox. Feito por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "codes": "Códigos",
+    "mechanics": "Mecânicas",
+    "items": "Itens",
+    "progression": "Progressão",
+    "controls": "Controles",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Harpoon a Fish Wiki - Códigos, índice de peixes, profundidade e guias",
+      "description": "Guia completo de Harpoon a Fish no Roblox com códigos ativos, índice de mais de 1.800 peixes, progressão de profundidade, loadouts de arpão e dicas de aquário."
+    },
+    "hero": {
+      "eyebrow": "Simulador de pesca de arpão multijogador",
+      "title": "Harpoon a Fish Wiki",
+      "description": "Explore o oceano, arpoe monstros marinhos únicos, crie peixes em seu aquário, compita por capturas raras e descubra guias, códigos, coleções de peixes e dicas de progressão para Harpoon a Fish.",
+      "stats": [
+        "Mais de 405 mil visitas totais",
+        "1.800+ peixes únicos",
+        "Mais de 2,7 mil jogadores on-line",
+        "Atualizado em 14 de outubro de 2026"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Índice de peixes e mecânicas",
+      "tertiaryCta": "Códigos ativos",
+      "videoLabel": "Guia de jogo"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Harpoon a Fish",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda a captura marcada, o tempo de disparo e carretel, o primeiro pet do aquário e o ciclo de peso da mesa Mukbang."
+        },
+        {
+          "number": "2",
+          "title": "Códigos ativos",
+          "description": "Resgate MONSTER por 3.000 EXP e 3 Chaves de Rubi e confira a página de códigos após cada atualização do jogo."
+        },
+        {
+          "number": "3",
+          "title": "Guia de progressão",
+          "description": "Passe da primeira captura para faixas mais profundas de 300 m com objetivos focados, equipamentos melhores e um pet em crescimento."
+        },
+        {
+          "number": "4",
+          "title": "Melhor Arpão",
+          "description": "Compare a recuperação do tiro, a margem de erro do carretel, o desempenho em profundidade e a conversão de capturas antes de comprar uma melhoria."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta agora",
+      "quickLinks": [
+        "Códigos ativos",
+        "Raridade dos peixes",
+        "Peso de Mukbang",
+        "Loadouts de arpão"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda a captura marcada, o tempo do carretel, o primeiro pet do aquário e a progressão de profundidade baseada no peso.",
+          "href": "/guide/harpoon-a-fish-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos ativos",
+          "description": "Resgate MONSTER por 3.000 EXP e 3 Chaves de Rubi com os passos exatos de resgate no jogo.",
+          "href": "/codes/harpoon-a-fish-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Raridade e índice de peixes",
+          "description": "Entenda os níveis de raridade, as camadas de profundidade e como completar a coleção de mais de 1.800 peixes.",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity"
+        },
+        {
+          "badge": "Popular",
+          "title": "Melhor Arpão",
+          "description": "Compare a recuperação do tiro, a margem de erro do carretel, o desempenho em profundidade e a conversão de capturas.",
+          "href": "/items/harpoon-a-fish-best-harpoon"
+        },
+        {
+          "badge": "Iniciante",
+          "title": "Guia de progressão",
+          "description": "Passe da primeira captura aos pets do aquário, ao peso de Mukbang e às faixas mais profundas de 300 m.",
+          "href": "/guide/harpoon-a-fish-progression-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mergulho e profundidade",
+          "description": "Planeje os limites de peso, o espaço da bolsa, os espaços para arpões e o medidor de profundidade completo de 0 a 1.800 m.",
+          "href": "/mechanics/harpoon-a-fish-diving-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Prioridade de atualização",
+          "description": "Gaste os recursos iniciais nas melhorias que desbloqueiam profundidade, mergulhos mais longos e mais espaços para arpões.",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades"
+        },
+        {
+          "badge": "Novo",
+          "title": "Guia de peixes raros",
+          "description": "Metas de profundidade separadas, chances de mutação, crescimento do aquário e conclusão do índice.",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide"
+        },
+        {
+          "badge": "Novo",
+          "title": "Última atualização",
+          "description": "Acompanhe o patch de outubro de 2026, o status do código, as alterações de progressão e as fontes da comunidade.",
+          "href": "/community/harpoon-a-fish-latest-update"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Harpoon a Fish?",
+      "paragraphs": [
+        "Harpoon a Fish é um simulador multijogador de pesca com arpão no Roblox da FirstTry. Você começa em uma pequena ilha, mergulha em zonas oceânicas em camadas, mira e atira em criaturas marinhas marcadas e termina cada captura com um carretel cronometrado. A coleção abrange mais de 1.800 peixes, desde peixes comuns rasos até monstros raros e lendários nas águas mais profundas.",
+        "O progresso exige mais do que um arpão mais forte. Os peixes capturados podem se tornar pets do aquário que crescem e evoluem, enquanto comer na mesa Mukbang adiciona peso e permite que seu personagem afunde em faixas mais profundas de 300 m. EXP, Chaves de Rubi, espaços de equipamento, espaço da bolsa e isca resolvem cada um uma parte diferente do ciclo, então o caminho mais rápido é concluir um objetivo claro por vez."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedor",
+          "value": "FirstTry"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Pesca de arpão"
+        },
+        {
+          "label": "Peixe",
+          "value": "1.800+"
+        },
+        {
+          "label": "Profundidade máxima",
+          "value": "1.800 m"
+        },
+        {
+          "label": "Visitas",
+          "value": "405K+"
+        },
+        {
+          "label": "Jogadores",
+          "value": "2,7K+"
+        }
+      ],
+      "cta": "Explore todos os guias"
+    },
+    "explore": {
+      "title": "Explore a Wiki de Harpoon a Fish",
+      "description": "Domine o oceano com códigos ativos, etapas para iniciantes, o índice de mais de 1.800 peixes, rotas de progressão, crescimento do aquário, loadouts de arpão e prioridades de melhoria.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de Harpoon a Fish",
+          "description": "Acompanhe o código ativo de Harpoon a Fish, suas recompensas de EXP e Chaves de Rubi, os passos de resgate e os motivos comuns de falha.",
+          "href": "/codes/harpoon-a-fish-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "MONSTER",
+              "detail": "3.000 EXP e 3 Chaves de Rubi; insira o código exatamente em Configurações."
+            },
+            {
+              "label": "EXP",
+              "detail": "Nivela sua conta para que arpões mais fortes e zonas mais profundas sejam desbloqueados mais rapidamente."
+            },
+            {
+              "label": "KEYS",
+              "detail": "As Chaves de Rubi desbloqueiam pacotes de recompensa vinculados à sua coleção de peixes."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia para iniciantes de Harpoon a Fish",
+          "description": "Aprenda o ciclo inicial completo: mire no peixe marcado, dispare, conclua o carretel, volte à ilha, coloque um pet e ganhe peso.",
+          "href": "/guide/harpoon-a-fish-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Mire no peixe marcado e dispare o arpão."
+            },
+            {
+              "label": "2",
+              "detail": "Conclua o aviso do carretel cronometrado; um acerto não garante a captura."
+            },
+            {
+              "label": "3",
+              "detail": "Suba à superfície com Space no PC e volte às tarefas da ilha."
+            },
+            {
+              "label": "4",
+              "detail": "Coloque sua primeira captura no aquário para criar um pet."
+            },
+            {
+              "label": "5",
+              "detail": "Compre a mesa Mukbang e complete a etapa de alimentação."
+            },
+            {
+              "label": "6",
+              "detail": "Aumente o peso para afundar mais fundo e, em seguida, escolha uma próxima captura específica."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Índice de peixes de Harpoon a Fish",
+          "description": "Navegue pela coleção de mais de 1.800 peixes em níveis de raridade, desde peixes comuns rasos até capturas lendárias e secretas nas águas mais profundas.",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Capturas lendárias e secretas em profundidades de final de jogo e equipamentos de ponta."
+            },
+            {
+              "label": "A",
+              "detail": "Espécies épicas de águas profundas que precisam de uma conta nivelada e de um arpão atualizado."
+            },
+            {
+              "label": "B",
+              "detail": "Peixes raros e incomuns de zonas intermediárias."
+            },
+            {
+              "label": "C",
+              "detail": "Capturas comuns de águas rasas que preenchem os primeiros espaços do aquário."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guia de progressão de Harpoon a Fish",
+          "description": "Siga o caminho de progressão inicial desde a primeira captura até os pets do aquário, o peso de Mukbang, faixas mais profundas de 300 m e mergulhos focados.",
+          "href": "/guide/harpoon-a-fish-progression-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Acerte a captura marcada com mira limpa, fogo e carretel."
+            },
+            {
+              "label": "2",
+              "detail": "Volte para a ilha e conclua todas as tarefas do tutorial."
+            },
+            {
+              "label": "3",
+              "detail": "Transforme a primeira captura em um pet de aquário."
+            },
+            {
+              "label": "4",
+              "detail": "Coma na mesa Mukbang para adicionar peso ao personagem."
+            },
+            {
+              "label": "5",
+              "detail": "Use o novo peso para alcançar a próxima faixa de profundidade de 300 m."
+            },
+            {
+              "label": "6",
+              "detail": "Escolha uma receita de peixe, entrada de índice ou alvo recém-alcançado."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Melhores melhorias de Harpoon a Fish",
+          "description": "Priorize as atualizações que melhoram o acesso à profundidade, a duração do mergulho, os espaços para arpões e a eficiência da coleta a longo prazo.",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "MUKBANG",
+              "detail": "Compre a mesa quando a tarefa aparecer; comer aumenta o peso e o acesso à profundidade."
+            },
+            {
+              "label": "BAG",
+              "detail": "Expanda o espaço da bolsa para estender cada mergulho além dos cinco slots iniciais."
+            },
+            {
+              "label": "SLOTS",
+              "detail": "Os slots de equipamento permitem que você coloque mais arpões que você já possui."
+            },
+            {
+              "label": "HARPOON",
+              "detail": "Atualize os arpões depois que o peso estiver se movendo; equipamento mais forte aumenta seu teto de captura."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia do aquário de Harpoon a Fish",
+          "description": "Transforme peixes capturados em pets do aquário, apoie o crescimento deles e crie uma renda passiva por meio da evolução.",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Mantenha um peixe de que você goste e coloque-o em um espaço de pet do aquário."
+            },
+            {
+              "label": "2",
+              "detail": "Use novas capturas para apoiar o crescimento desse pet."
+            },
+            {
+              "label": "3",
+              "detail": "Concentre-se em um único pet em vez de dividir recursos entre vários."
+            },
+            {
+              "label": "4",
+              "detail": "Avance pelas etapas de crescimento e evolução do aquário para fortalecer o pet."
+            },
+            {
+              "label": "5",
+              "detail": "Pets evoluídos geram dinheiro a cada segundo, com ganhos off-line cerca de 20% mais lentos."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guia de arpões de Harpoon a Fish",
+          "description": "Entenda a captura em duas etapas, compare arpões pela taxa de conversão e monte um loadout para diferentes profundidades e alvos.",
+          "href": "/items/harpoon-a-fish-best-harpoon",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Duas etapas",
+              "detail": "O disparo inicia a tentativa; o carretel cronometrado conclui a captura."
+            },
+            {
+              "label": "Teste",
+              "detail": "Compare arpões por acertos limpos, capturas bem-sucedidas e ciclos completos de captura."
+            },
+            {
+              "label": "Loadout",
+              "detail": "Use um arpão versátil e fácil de controlar mais um especialista quando houver espaços."
+            },
+            {
+              "label": "Profundidade",
+              "detail": "Combine o arpão com a água que você pesca; alvos profundos precisam de alcance e estabilidade."
+            },
+            {
+              "label": "Orçamento",
+              "detail": "Conclua as compras do tutorial antes de gastar em arpões opcionais."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guia de emblemas de Harpoon a Fish",
+          "description": "Use a lista de 12 emblemas como checklist de conclusão e roteiro prático para seu próximo objetivo em Harpoon a Fish.",
+          "href": "/mechanics/harpoon-a-fish-diving-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "12 emblemas",
+              "detail": "A lista atual de emblemas tem 12 entradas e funciona como checklist de conclusão."
+            },
+            {
+              "label": "Roteiro",
+              "detail": "Use emblemas inacabados para escolher um próximo objetivo claro."
+            },
+            {
+              "label": "Explorar",
+              "detail": "O progresso dos emblemas se combina com metas de mergulho, captura e coleção."
+            },
+            {
+              "label": "Índice",
+              "detail": "Verifique o índice de peixes junto com os emblemas ao escolher um alvo."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre Harpoon a Fish",
+      "description": "Respostas diretas sobre captura, profundidade, códigos, coleta de peixes e progressão do aquário em Harpoon a Fish.",
+      "items": [
+        {
+          "question": "O que é Harpoon a Fish?",
+          "answer": "Harpoon a Fish é um simulador multijogador de pesca com arpão no Roblox da FirstTry. Os jogadores mergulham em zonas oceânicas em camadas, arpoam criaturas, puxam-nas e cultivam uma coleção de mais de 1.800 peixes."
+        },
+        {
+          "question": "Como você pesca um peixe em Harpoon a Fish?",
+          "answer": "Em Harpoon a Fish, mire no alvo e dispare o arpão; depois conclua o aviso do carretel cronometrado. O disparo apenas inicia a tentativa: a captura é sua quando o carretel termina."
+        },
+        {
+          "question": "Como você alcança águas mais profundas em Harpoon a Fish?",
+          "answer": "Em Harpoon a Fish, coma na mesa Mukbang para aumentar o peso do personagem. O peso permite atravessar as faixas de profundidade de 300 m, onde as águas mais profundas têm peixes mais raros."
+        },
+        {
+          "question": "O que o código MONSTER fornece em Harpoon a Fish?",
+          "answer": "Em Harpoon a Fish, MONSTER concede 3.000 EXP e 3 Chaves de Rubi. Abra Configurações, insira o código exatamente e envie; cada código funciona uma vez por conta."
+        },
+        {
+          "question": "Quantos peixes existem em Harpoon a Fish?",
+          "answer": "Harpoon a Fish oferece mais de 1.800 peixes únicos. O índice de peixes registra novas espécies e o recorde de peso de cada entrada."
+        },
+        {
+          "question": "Como funciona o aquário no Harpoon a Fish?",
+          "answer": "Em Harpoon a Fish, os peixes capturados podem se tornar pets do aquário. Mantenha um peixe que queira desenvolver, acompanhe seu crescimento e evolução, e os pets evoluídos geram dinheiro com o tempo, inclusive off-line em um ritmo mais lento."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para pegar todos os peixes em Harpoon a Fish?",
+      "description": "Explore o oceano, aumente seu aquário, cace monstros marinhos e domine todos os sistemas de progressão com guias de fãs gratuitos e atualizados.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogue no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guia de Harpoon a Fish: dicas e estratégias para iniciantes",
+    "overviewDescription": "Comece com a captura marcada, aprenda a sincronizar o disparo e o carretel, coloque seu primeiro pet no aquário e use a mesa Mukbang para desbloquear águas mais profundas."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Harpoon a Fish: recompensas ativas e resgate",
+    "overviewDescription": "Confira a lista atual de códigos de Harpoon a Fish, resgate EXP e Chaves de Rubi grátis e saiba onde novos códigos aparecem após cada atualização."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Harpoon a Fish: raridade, mergulho e captura",
+    "overviewDescription": "Entenda a raridade dos peixes, as mecânicas do arpão e da pesca, os limites de profundidade do mergulho e o sistema de melhorias que sustenta cada mergulho em alto-mar."
+  },
+  "items": {
+    "overviewTitle": "Itens de Harpoon a Fish: arpões, equipamentos e peixes raros",
+    "overviewDescription": "Compare arpões e equipamentos, planeje as prioridades de melhoria e acompanhe peixes raros, secretos e exóticos em toda a coleção."
+  },
+  "progression": {
+    "overviewTitle": "Progressão de Harpoon a Fish: níveis rápidos e dinheiro",
+    "overviewDescription": "Acelere a progressão com capturas eficientes, desbloqueios de melhoria, melhores arpões e rotas de renda adaptadas à sua profundidade atual."
+  },
+  "controls": {
+    "overviewTitle": "Controles de Harpoon a Fish: PC, celular e mira",
+    "overviewDescription": "Aprenda os controles de PC e celular, mire com precisão e cronometre o aviso do carretel para converter mais disparos em capturas."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Harpoon a Fish: Discord, Reddit e atualizações",
+    "overviewDescription": "Siga as atualizações de Harpoon a Fish, encontre a comunidade no Discord e no Reddit e acompanhe as mudanças de patch e os novos conteúdos."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogue no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximas etapas",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Leia mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!",
+    "activeCodeReward": "3.000 EXP + 3 Chaves de Rubi",
+    "moreCodesSoon": "Volte em breve para ver novos códigos",
+    "close": "Fechar",
+    "notFoundTitle": "Página não encontrada",
+    "notFoundDescription": "O guia que você procura pode ter sido movido ou ainda não foi adicionado."
+  },
+  "footer": {
+    "aboutTitle": "Harpoon a Fish Wiki",
+    "about": "Harpoon a Fish Wiki é um centro de guia independente criado por fãs que cobre a mecânica do arpão, o índice de peixes, o crescimento do aquário, monstros marinhos, atualizações e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Harpoon a Fish Wiki. Não afiliado à FirstTry ou à Roblox.",
+    "description": "Simulador multijogador de pesca com arpão no Roblox com mais de 1.800 peixes, crescimento de aquário e caça a monstros marinhos.",
+    "playGame": "Jogue Harpoon a Fish em Roblox",
+    "officialDiscord": "Comunidade FirstTry Roblox",
+    "officialYoutube": "Guia de jogo de Harpoon a Fish",
+    "vvBuilder": "Índice de peixes e guias de localização",
+    "beginnerGuide": "Guia para iniciantes",
+    "raceGuides": "Índice de peixes",
+    "bossGuides": "Mecânicas de pesca",
+    "buildGuide": "Guias de progressão",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  }
+}
