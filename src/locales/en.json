@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "codes": "Codes",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "progression": "Progression",
+    "controls": "Controls",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -27,7 +34,7 @@
         "Updated Oct 14, 2026"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Fish Index & Maps",
+      "secondaryCta": "Fish Index & Mechanics",
       "tertiaryCta": "Active Codes",
       "videoLabel": "Gameplay Guide"
     },
@@ -429,7 +436,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Harpoon a Fish Guide: Beginner Tips & Strategies",
+    "overviewDescription": "Start with the marked catch, learn fire-and-reel timing, place your first aquarium pet, and use the Mukbang table to unlock deeper water."
+  },
+  "codes": {
+    "overviewTitle": "Harpoon a Fish Codes: Working Rewards & Redemption",
+    "overviewDescription": "Check the current Harpoon a Fish code list, redeem free EXP and Ruby Keys, and know where new codes appear after each update."
+  },
+  "mechanics": {
+    "overviewTitle": "Harpoon a Fish Mechanics: Rarity, Diving & Catching",
+    "overviewDescription": "Understand fish rarity, harpoon and fishing mechanics, diving depth gates, and the upgrade system that supports every deep-sea run."
+  },
+  "items": {
+    "overviewTitle": "Harpoon a Fish Items: Harpoons, Equipment & Rare Fish",
+    "overviewDescription": "Compare harpoons and equipment, plan upgrade priorities, and track rare, secret, and exotic fish across the collection."
+  },
+  "progression": {
+    "overviewTitle": "Harpoon a Fish Progression: Fast Levels & Money",
+    "overviewDescription": "Speed up progression with efficient catches, upgrade unlocks, better harpoons, and money-making routes built around your current depth."
+  },
+  "controls": {
+    "overviewTitle": "Harpoon a Fish Controls: PC, Mobile & Aiming",
+    "overviewDescription": "Learn PC and mobile controls, aim the harpoon accurately, and time the reel prompt so more shots turn into landed fish."
+  },
+  "community": {
+    "overviewTitle": "Harpoon a Fish Community: Discord, Reddit & Updates",
+    "overviewDescription": "Follow Harpoon a Fish updates, find the community on Discord and Reddit, and keep track of patch changes and new content."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -461,8 +495,8 @@
     "vvBuilder": "Fish Index & Location Guides",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Fish Index",
-    "bossGuides": "Sea Monster Guides",
-    "buildGuide": "Upgrade Guides",
+    "bossGuides": "Fishing Mechanics",
+    "buildGuide": "Progression Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
