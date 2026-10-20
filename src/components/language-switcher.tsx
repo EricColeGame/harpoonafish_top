@@ -18,6 +18,10 @@ const LOCALE_LABELS = {
   ja: "日本語",
 } satisfies Record<Locale, string>;
 
+function isLocale(value: string): value is Locale {
+  return (routing.locales as readonly string[]).includes(value);
+}
+
 /**
  * 语言切换器（下拉菜单版）：点击 Globe 图标展开所有语言列表
  * 当前语言显示 ✓ 标记，选择后跳转对应语言路径
@@ -27,7 +31,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
   const pathname = usePathname();
   const router = useRouter();
 
-  if (!routing.locales.includes(locale as Locale)) return null;
+  if (!isLocale(locale)) return null;
   if (routing.locales.length <= 1) return null;
 
   const handleSwitch = (nextLocale: Locale) => {
@@ -58,7 +62,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
             className="flex items-center justify-between gap-3"
           >
             <span>{LOCALE_LABELS[loc] || loc.toUpperCase()}</span>
-            {loc === (locale as Locale) && <Check className="h-4 w-4 text-[hsl(var(--nav-theme))]" />}
+            {loc === locale && <Check className="h-4 w-4 text-[hsl(var(--nav-theme))]" />}
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
