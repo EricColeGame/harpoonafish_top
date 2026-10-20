@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "Harpoon a Fish Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete Harpoon a Fish guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Harpoon a Fish Wiki — Codes, Fish Index, Depth & Guides",
+      "description": "Complete Harpoon a Fish guide on Roblox with working codes, the 1,800+ fish index, depth progression, harpoon loadouts, and aquarium tips."
     },
     "hero": {
       "eyebrow": "Multiplayer Harpoon Fishing Simulator",
@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the marked catch, fire-and-reel timing, first aquarium pet, and the Mukbang table weight loop."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Working Codes",
+          "description": "Redeem MONSTER for 3,000 EXP and 3 Ruby Keys, then check the codes page after each game update."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Progression Guide",
+          "description": "Move from the first catch to deeper 300 m bands with focused goals, better gear, and a growing pet."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Harpoon a Fish."
+          "title": "Best Harpoon",
+          "description": "Compare shot recovery, reel forgiveness, depth performance, and catch conversion before buying an upgrade."
         }
       ]
     },
@@ -66,78 +66,78 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Working Codes",
+        "Fish Rarity",
+        "Mukbang Weight",
+        "Harpoon Loadouts"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Learn the marked catch, reel timing, first aquarium pet, and weight-based depth progression.",
+          "href": "/guide/harpoon-a-fish-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Working Codes",
+          "description": "Redeem MONSTER for 3,000 EXP and 3 Ruby Keys with the exact in-game redemption steps.",
+          "href": "/codes/harpoon-a-fish-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Fish Rarity & Index",
+          "description": "Understand rarity tiers, depth pools, and how to fill the 1,800+ fish collection.",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Best Harpoon",
+          "description": "Compare shot recovery, reel forgiveness, depth performance, and catch conversion.",
+          "href": "/items/harpoon-a-fish-best-harpoon"
+        },
+        {
+          "badge": "Beginner",
+          "title": "Progression Guide",
+          "description": "Move from the first catch to aquarium pets, Mukbang weight, and deeper 300 m bands.",
+          "href": "/guide/harpoon-a-fish-progression-guide"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Diving & Depth",
+          "description": "Plan weight gates, bag space, harpoon slots, and the full 0 to 1,800 m depth gauge.",
+          "href": "/mechanics/harpoon-a-fish-diving-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Upgrade Priority",
+          "description": "Spend early resources on the upgrades that unlock depth, longer dives, and more harpoon slots.",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Rare Fish Guide",
+          "description": "Separate depth goals, mutation chances, aquarium growth, and index completion.",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Latest Update",
+          "description": "Track the October 2026 patch, code status, progression changes, and community sources.",
+          "href": "/community/harpoon-a-fish-latest-update"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Harpoon a Fish?",
       "paragraphs": [
-        "Harpoon a Fish is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Harpoon a Fish is a multiplayer harpoon fishing simulator on Roblox from FirstTry. You start on a small island, dive into layered ocean zones, aim and fire at marked sea creatures, and finish every catch with a timed reel. The collection spans more than 1,800 fish, from shallow commons to rare and legendary monsters in the deepest water.",
+        "Progress comes from more than a stronger harpoon. Caught fish can become aquarium pets that grow and evolve, while eating at the Mukbang table adds weight that lets your character sink into deeper 300 m bands. EXP, Ruby Keys, equipment slots, bag space, and bait each solve a different part of the loop, so the fastest route is to finish one clear goal at a time."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "FirstTry"
         },
         {
           "label": "Platform",
@@ -145,186 +145,280 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Harpoon Fishing"
+        },
+        {
+          "label": "Fish",
+          "value": "1,800+"
+        },
+        {
+          "label": "Max Depth",
+          "value": "1,800 m"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "405K+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Players",
+          "value": "2.7K+"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Harpoon a Fish Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master the ocean with working codes, beginner steps, the 1,800+ fish index, progression routes, aquarium growth, harpoon loadouts, and upgrade priorities.",
       "modules": [
         {
           "order": 1,
-          "name": "Harpoon a Fish Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
+          "name": "Harpoon a Fish Codes",
+          "description": "Track the working Harpoon a Fish code, its EXP and Ruby Key rewards, redemption steps, and common reasons a code fails.",
           "href": "/codes/harpoon-a-fish-codes",
-          "displayType": "code-box",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "MONSTER",
+              "detail": "3,000 EXP and 3 Ruby Keys; enter it exactly in Settings."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "EXP",
+              "detail": "Levels your account so stronger harpoons and deeper zones unlock sooner."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "KEYS",
+              "detail": "Ruby Keys unlock reward bundles tied to your fish collection."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
+          "name": "Harpoon a Fish Beginner Guide",
+          "description": "Learn the full opening loop: aim at the marked fish, fire, finish the reel, return to the island, place a pet, and build weight.",
           "href": "/guide/harpoon-a-fish-beginner-guide",
-          "displayType": "feature-cards",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Aim at the marked fish and fire the harpoon."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Finish the timed reel prompt; a hit is not a landed catch."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Surface with Space on PC and return to the island tasks."
+            },
+            {
+              "label": "4",
+              "detail": "Place your first catch in the aquarium to start a pet."
+            },
+            {
+              "label": "5",
+              "detail": "Buy the Mukbang table and complete the eating step."
+            },
+            {
+              "label": "6",
+              "detail": "Build weight to sink deeper, then pick one specific next catch."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/harpoon-a-fish-tier-list",
+          "name": "Harpoon a Fish Fish Index",
+          "description": "Browse the 1,800+ fish collection through rarity tiers, from shallow commons to Legendary and Secret catches in the deepest water.",
+          "href": "/mechanics/harpoon-a-fish-fish-rarity",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Legendary and Secret catches from endgame depths and top gear."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Epic deep-water species that need a leveled account and upgraded harpoon."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Rare and Uncommon fish from mid-water zones."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Common shallow-water catches that fill early aquarium slots."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/harpoon-a-fish-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Harpoon a Fish Progression Guide",
+          "description": "Follow the early progression path from the first catch to aquarium pets, Mukbang weight, deeper 300 m bands, and focused dives.",
+          "href": "/guide/harpoon-a-fish-progression-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Land the marked catch with a clean aim, fire, and reel."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Return to the island and finish every tutorial arrow task."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Turn the first catch into an aquarium pet."
+            },
+            {
+              "label": "4",
+              "detail": "Eat at the Mukbang table to add character weight."
+            },
+            {
+              "label": "5",
+              "detail": "Use the new weight to reach the next 300 m depth band."
+            },
+            {
+              "label": "6",
+              "detail": "Pick one recipe fish, index entry, or newly reachable target."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/harpoon-a-fish-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Harpoon a Fish Best Upgrades",
+          "description": "Prioritize the upgrades that improve depth access, dive length, harpoon slots, and long-term collection efficiency.",
+          "href": "/progression/harpoon-a-fish-how-to-unlock-upgrades",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "MUKBANG",
+              "detail": "Buy the table when the task appears; eating raises weight and depth access."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "BAG",
+              "detail": "Expand bag space to extend each dive beyond the starter five slots."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "SLOTS",
+              "detail": "Equipment slots let you field more of the harpoons you already own."
+            },
+            {
+              "label": "HARPOON",
+              "detail": "Upgrade harpoons after weight is moving; stronger gear raises your catch ceiling."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/harpoon-a-fish-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Harpoon a Fish Aquarium Guide",
+          "description": "Turn caught fish into aquarium pets, support their growth, and build a passive cash stream through evolution.",
+          "href": "/guide/harpoon-a-fish-rare-fish-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Keep a fish you like and place it in an aquarium pet slot."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Use new catches to support that pet's growth path."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Keep one committed pet instead of splitting resources across many."
+            },
+            {
+              "label": "4",
+              "detail": "Work through aquarium growth and evolution steps to strengthen the pet."
+            },
+            {
+              "label": "5",
+              "detail": "Evolved pets pay cash every second, with offline earnings about 20% slower."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Harpoon a Fish Harpoon Guide",
+          "description": "Understand the two-part catch, test harpoons by conversion, and build a loadout for different depths and targets.",
+          "href": "/items/harpoon-a-fish-best-harpoon",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Two Beats",
+              "detail": "Firing starts the attempt; the timed reel finishes the catch."
+            },
+            {
+              "label": "Test",
+              "detail": "Compare harpoons by clean hits, landed catches, and full catch cycles."
+            },
+            {
+              "label": "Loadout",
+              "detail": "Use one forgiving all-rounder plus one specialist when slots open."
+            },
+            {
+              "label": "Depth",
+              "detail": "Match the harpoon to the water you fish; deep targets need reach and stability."
+            },
+            {
+              "label": "Budget",
+              "detail": "Finish tutorial purchases before spending on optional harpoons."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Harpoon a Fish Badges Guide",
+          "description": "Use the 12-badge list as a completion checklist and a practical roadmap for your next Harpoon a Fish goal.",
+          "href": "/mechanics/harpoon-a-fish-diving-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "12 Badges",
+              "detail": "The current badge list has 12 entries and works as a completion checklist."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Use unfinished badges to choose a clear next goal."
+            },
+            {
+              "label": "Explore",
+              "detail": "Badge progress pairs with diving, capturing, and collection goals."
+            },
+            {
+              "label": "Index",
+              "detail": "Check the fish index alongside badges when choosing a target."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Harpoon a Fish.",
+      "title": "Harpoon a Fish FAQ",
+      "description": "Straight answers about catching, depth, codes, fish collection, and aquarium progression in Harpoon a Fish.",
       "items": [
         {
           "question": "What is Harpoon a Fish?",
-          "answer": "Harpoon a Fish is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Harpoon a Fish is a multiplayer harpoon fishing simulator on Roblox from FirstTry. Players dive into layered ocean zones, harpoon creatures, reel them in, and grow a collection of more than 1,800 fish."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do you catch a fish in Harpoon a Fish?",
+          "answer": "In Harpoon a Fish, aim at the target and fire the harpoon, then finish the timed reel prompt. The shot only starts the attempt; the catch is yours after the reel completes."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do you reach deeper water in Harpoon a Fish?",
+          "answer": "In Harpoon a Fish, eat at the Mukbang table to increase character weight. Weight lets you sink through the 300 m depth bands, where deeper pools contain rarer fish."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What does the MONSTER code give in Harpoon a Fish?",
+          "answer": "In Harpoon a Fish, MONSTER grants 3,000 EXP and 3 Ruby Keys. Open Settings, enter the code exactly, and submit it; each code works once per account."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How many fish are in Harpoon a Fish?",
+          "answer": "Harpoon a Fish advertises more than 1,800 unique fish. The fish index tracks new species and the heaviest record caught for each entry."
+        },
+        {
+          "question": "How does the aquarium work in Harpoon a Fish?",
+          "answer": "In Harpoon a Fish, caught fish can become aquarium pets. Keep a fish you want to develop, follow its growth and evolution path, and evolved pets generate cash over time, including offline at a slower rate."
         }
       ]
     },
