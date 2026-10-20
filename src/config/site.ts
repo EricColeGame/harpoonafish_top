@@ -19,15 +19,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Harpoon a Fish Wiki",
+  shortName: "Harpoon a Fish",
+  logoText: "H",
+  tagline: "Codes, Fish Index & Progression Guides",
+  description: "Your ultimate guide to Harpoon a Fish on Roblox! Explore working codes, the fish index, harpoon upgrades, aquarium growth, sea monsters, and progression strategies.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://harpoonafish.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://harpoonafish.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/games/113384248926706/Harpoon-a-Fish",
+  heroVideoId: "Ld73nCcJ7z8", // How to Play Harpoon a Fish Roblox Full Guide
   social: {
     discord: "https://discord.gg/roblox",
     youtube: "https://www.youtube.com/@roblox",
